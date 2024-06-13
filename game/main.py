@@ -22,7 +22,7 @@ class app():
 
         # carregando e redimensionando a imagem de fundo
         imagem = Image.open("img/yugioh_background.jpg")
-        imagem = imagem.resize((largura, altura))
+        imagem = imagem.resize((largura, altura))# deixando a imagem do tamnho da tela
         self.imagem = ImageTk.PhotoImage(imagem)
 
         LabelImage = Label(self.root, image=self.imagem)

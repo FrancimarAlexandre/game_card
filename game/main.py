@@ -16,7 +16,7 @@ class app():
         root.mainloop()
 
     def configTela(self):
-        self.root.title("Game Card YU-GI-OH")
+        self.root.title("GameCard YU-GI-OH")
         self.root.geometry(f"{largura}x{altura}")
         self.root.resizable(False, False)
 
